@@ -21,5 +21,3 @@ def emotion_detector(text_to_analyze):
     emotion['dominant_emotion'] = dominant_emotion
 
     return emotion
-
-print(emotion_detector('I love this new technology.'))
